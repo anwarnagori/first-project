@@ -96,14 +96,8 @@ body {
     font-size: 15px;
 }
 
-#middle{
-    height: 82vh;
-    border: 5px solid red;
-    background-color: var(--clr-4);
-    right: 0;
-    bottom: -50%;
-    animation: aurora-border 6s ease-in-out infinite,
-        aurora-4 24s ease-in-out infinite alternate;
+#middle {
+    border-bottom: 3px solid #000000;
 }
 
 .heading {
@@ -114,10 +108,12 @@ body {
     font-weight: 800;
     font-size: 5rem;
     font-family: monospace;
+    text-shadow: #fc0 1px 0 10px;
     letter-spacing: var(--ls);
     position: relative;
     overflow: hidden;
     margin: 0;
+    padding: 15px;
 }
 
 .aurora {
@@ -142,7 +138,7 @@ body {
     mix-blend-mode: overlay;
 }
 
-/* .aurora__item:nth-of-type(1) {
+.aurora__item:nth-of-type(1) {
     top: -50%;
     animation: aurora-border 6s ease-in-out infinite,
         aurora-1 12s ease-in-out infinite alternate;
@@ -170,7 +166,7 @@ body {
     bottom: -50%;
     animation: aurora-border 6s ease-in-out infinite,
         aurora-4 24s ease-in-out infinite alternate;
-} */
+}
 
 @keyframes aurora-1 {
     0% {
